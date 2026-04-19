@@ -9,7 +9,9 @@
  *   // tags: glass, blur, modern
  *   // author: Your Name
  *   // featured: true
- *   // likes: 120
+ *
+ * Likes are NOT in the header — they are preserved from the existing snippets.json.
+ * New snippets start at 0.
  */
 
 const fs = require('fs');
@@ -24,6 +26,17 @@ const VALID_CATEGORIES = [
   'lists', 'dialogs', 'charts', 'layouts', 'loaders',
   'typography', 'forms', 'misc',
 ];
+
+// Load existing likes so they are never reset by a sync
+function loadExistingLikes() {
+  if (!fs.existsSync(OUTPUT)) return {};
+  try {
+    const data = JSON.parse(fs.readFileSync(OUTPUT, 'utf8'));
+    return Object.fromEntries((data.snippets || []).map(s => [s.slug, s.likes ?? 0]));
+  } catch {
+    return {};
+  }
+}
 
 function parseHeader(content, filename) {
   const lines = content.split('\n');
@@ -60,7 +73,6 @@ function parseHeader(content, filename) {
     authorName: meta.author || 'gsWidget',
     authorAvatarUrl: null,
     featured: meta.featured === 'true',
-    likes: parseInt(meta.likes || '0', 10),
     createdAt: meta.createdAt || new Date().toISOString().split('T')[0] + 'T00:00:00.000Z',
   };
 }
@@ -70,6 +82,8 @@ function sync() {
     console.error('snippets/ folder not found');
     process.exit(1);
   }
+
+  const existingLikes = loadExistingLikes();
 
   const files = fs.readdirSync(SNIPPETS_DIR)
     .filter(f => f.endsWith('.dart'))
@@ -82,6 +96,7 @@ function sync() {
     const content = fs.readFileSync(path.join(SNIPPETS_DIR, file), 'utf8');
     const entry = parseHeader(content, file);
     if (entry) {
+      entry.likes = existingLikes[entry.slug] ?? 0;
       snippets.push(entry);
       console.log(`  ✓ ${entry.slug} — ${entry.title}`);
     }

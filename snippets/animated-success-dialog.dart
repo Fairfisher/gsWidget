@@ -4,7 +4,6 @@
 // tags: dialog, success, animation, checkmark
 // author: Oliver Schmidt
 // featured: false
-// likes: 176
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 

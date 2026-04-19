@@ -4,7 +4,6 @@
 // tags: chart, bar, animation, custom-paint
 // author: David Park
 // featured: true
-// likes: 418
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

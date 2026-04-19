@@ -4,7 +4,6 @@
 // tags: stepper, progress, steps, animation, custom
 // author: Yuki Tanaka
 // featured: false
-// likes: 267
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

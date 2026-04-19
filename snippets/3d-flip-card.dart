@@ -4,7 +4,6 @@
 // tags: 3d, flip, animation, transform
 // author: Nina Patel
 // featured: true
-// likes: 521
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 

@@ -4,7 +4,6 @@
 // tags: glass, blur, modern, gradient
 // author: Alex Chen
 // featured: true
-// likes: 342
 import 'dart:ui';
 import 'package:flutter/material.dart';
 

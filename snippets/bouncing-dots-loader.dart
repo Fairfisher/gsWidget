@@ -4,7 +4,6 @@
 // tags: dots, bounce, loading, animated
 // author: Tom Baker
 // featured: false
-// likes: 156
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

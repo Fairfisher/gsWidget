@@ -4,7 +4,6 @@
 // tags: gradient, text, shader, colorful
 // author: Aisha Johnson
 // featured: false
-// likes: 201
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

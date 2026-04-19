@@ -4,7 +4,6 @@
 // tags: counter, number, slot, animation, tween
 // author: Jake Williams
 // featured: false
-// likes: 243
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

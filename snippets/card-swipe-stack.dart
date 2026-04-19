@@ -4,7 +4,6 @@
 // tags: swipe, drag, tinder, stack, gesture
 // author: Nina Petrov
 // featured: true
-// likes: 634
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

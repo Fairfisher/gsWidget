@@ -4,7 +4,6 @@
 // tags: fab, morph, expand, animation, spring
 // author: Chloe Dubois
 // featured: true
-// likes: 456
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

@@ -4,7 +4,6 @@
 // tags: shimmer, skeleton, loading, placeholder
 // author: Priya Sharma
 // featured: true
-// likes: 634
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

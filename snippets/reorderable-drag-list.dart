@@ -4,7 +4,6 @@
 // tags: drag, reorder, list, interactive
 // author: Fatima Al-Rashid
 // featured: false
-// likes: 143
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

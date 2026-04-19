@@ -4,7 +4,6 @@
 // tags: glass, blur, frosted, modern
 // author: Alex Chen
 // featured: true
-// likes: 389
 import 'dart:ui';
 import 'package:flutter/material.dart';
 

@@ -4,7 +4,6 @@
 // tags: glass, aurora, blur, animation, gradient, dark
 // author: gsWidget
 // featured: true
-// likes: 287
 import 'dart:math';
 import 'dart:ui';
 import 'package:flutter/material.dart';

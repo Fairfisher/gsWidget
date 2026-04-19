@@ -4,7 +4,6 @@
 // tags: toggle, switch, neon, glow, custom
 // author: Mia Torres
 // featured: true
-// likes: 387
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

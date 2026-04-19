@@ -4,7 +4,6 @@
 // tags: bottom-nav, animation, custom, indicator
 // author: Carlos Mendez
 // featured: true
-// likes: 502
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
