@@ -1,3 +1,10 @@
+// title: Gradient Text
+// description: Text with a linear gradient using ShaderMask — pure Flutter, no packages.
+// category: typography
+// tags: gradient, text, shader, colorful
+// author: Aisha Johnson
+// featured: false
+// likes: 201
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

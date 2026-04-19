@@ -1,3 +1,10 @@
+// title: 3D Flip Card
+// description: Card that flips in 3D on tap to reveal content on the back using Matrix4 transforms.
+// category: cards
+// tags: 3d, flip, animation, transform
+// author: Nina Patel
+// featured: true
+// likes: 521
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 

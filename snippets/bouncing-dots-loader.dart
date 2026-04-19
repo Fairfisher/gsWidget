@@ -1,3 +1,10 @@
+// title: Bouncing Dots Loader
+// description: Three dots that bounce sequentially using staggered animations.
+// category: loaders
+// tags: dots, bounce, loading, animated
+// author: Tom Baker
+// featured: false
+// likes: 156
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

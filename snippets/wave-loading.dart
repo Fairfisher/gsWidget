@@ -1,3 +1,10 @@
+// title: Wave Loading Animation
+// description: Animated wave using CustomPainter and sine wave math — no packages needed.
+// category: animations
+// tags: wave, loading, custom-paint, sine
+// author: Yuki Tanaka
+// featured: true
+// likes: 445
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 

@@ -1,3 +1,10 @@
+// title: Floating Action Menu
+// description: Speed dial FAB that fans out sub-actions with staggered spring animations.
+// category: navigation
+// tags: fab, speed-dial, menu, animation, stagger
+// author: Marco Russo
+// featured: false
+// likes: 289
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

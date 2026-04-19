@@ -1,3 +1,10 @@
+// title: Toast Notification
+// description: Animated slide-in toast notifications with icon, progress bar, and auto-dismiss.
+// category: dialogs
+// tags: toast, notification, snackbar, animation, slide
+// author: Eva Nguyen
+// featured: false
+// likes: 334
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

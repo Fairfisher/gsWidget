@@ -1,3 +1,10 @@
+// title: Neumorphic Button
+// description: Soft UI button with light and dark shadows creating a pressed-in depth effect.
+// category: buttons
+// tags: neumorphism, soft-ui, shadow, 3d
+// author: Sara Kim
+// featured: false
+// likes: 198
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

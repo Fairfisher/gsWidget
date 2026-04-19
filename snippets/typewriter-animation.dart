@@ -1,3 +1,10 @@
+// title: Typewriter Animation
+// description: Typewriter effect with blinking cursor using AnimationController.
+// category: animations
+// tags: typewriter, text, animation, cursor
+// author: Emma Wilson
+// featured: false
+// likes: 287
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

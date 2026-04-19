@@ -1,3 +1,10 @@
+// title: Animated Number Counter
+// description: Numbers roll with a slot-machine effect when the value changes.
+// category: animations
+// tags: counter, number, slot, animation, tween
+// author: Jake Williams
+// featured: false
+// likes: 243
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

@@ -1,3 +1,10 @@
+// title: Animated Bar Chart
+// description: Animated bar chart built from scratch with CustomPainter — no chart package.
+// category: charts
+// tags: chart, bar, animation, custom-paint
+// author: David Park
+// featured: true
+// likes: 418
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

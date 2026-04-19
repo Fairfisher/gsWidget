@@ -1,3 +1,10 @@
+// title: Pin Code Input
+// description: OTP/PIN input with 6 boxes and auto-advance focus.
+// category: inputs
+// tags: otp, pin, verification, input
+// author: Marco Rossi
+// featured: true
+// likes: 310
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

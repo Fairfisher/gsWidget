@@ -1,3 +1,10 @@
+// title: Aurora Glass Card
+// description: Floating glass card with animated aurora blobs in purple, cyan and pink. BackdropFilter blur over morphing radial gradients.
+// category: cards
+// tags: glass, aurora, blur, animation, gradient, dark
+// author: gsWidget
+// featured: true
+// likes: 287
 import 'dart:math';
 import 'dart:ui';
 import 'package:flutter/material.dart';

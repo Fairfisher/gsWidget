@@ -1,3 +1,10 @@
+// title: Animated Stepper
+// description: Custom horizontal stepper with animated progress line, step icons, and labels.
+// category: navigation
+// tags: stepper, progress, steps, animation, custom
+// author: Yuki Tanaka
+// featured: false
+// likes: 267
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

@@ -1,3 +1,10 @@
+// title: Circular Countdown Timer
+// description: Animated circular progress timer with custom paint arc and color transitions.
+// category: animations
+// tags: timer, countdown, circular, custom-paint, animation
+// author: Ben Fischer
+// featured: false
+// likes: 298
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 

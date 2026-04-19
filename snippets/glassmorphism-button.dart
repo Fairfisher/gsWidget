@@ -1,3 +1,10 @@
+// title: Glassmorphism Button
+// description: A stunning button with glass morphism effect using BackdropFilter and gradient border on a dark background.
+// category: buttons
+// tags: glass, blur, modern, gradient
+// author: Alex Chen
+// featured: true
+// likes: 342
 import 'dart:ui';
 import 'package:flutter/material.dart';
 

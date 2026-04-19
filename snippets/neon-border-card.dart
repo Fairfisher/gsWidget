@@ -1,3 +1,10 @@
+// title: Neon Border Card
+// description: Card with an animated rotating neon gradient border using CustomPainter.
+// category: cards
+// tags: neon, border, gradient, animation, glow
+// author: Sam Rivera
+// featured: true
+// likes: 512
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 

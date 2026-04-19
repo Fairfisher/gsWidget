@@ -1,3 +1,10 @@
+// title: Glassmorphism Card
+// description: Frosted glass card with gradient border and blur effect.
+// category: cards
+// tags: glass, blur, frosted, modern
+// author: Alex Chen
+// featured: true
+// likes: 389
 import 'dart:ui';
 import 'package:flutter/material.dart';
 

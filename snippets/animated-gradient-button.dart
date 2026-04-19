@@ -1,3 +1,10 @@
+// title: Animated Gradient Button
+// description: Button with a continuously shifting gradient background animation.
+// category: buttons
+// tags: gradient, animation, custom
+// author: Liam Torres
+// featured: true
+// likes: 274
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

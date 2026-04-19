@@ -1,3 +1,10 @@
+// title: Morphing FAB
+// description: Floating action button that morphs into an expanded action panel with smooth animation.
+// category: buttons
+// tags: fab, morph, expand, animation, spring
+// author: Chloe Dubois
+// featured: true
+// likes: 456
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

@@ -1,3 +1,10 @@
+// title: Liquid Progress Bar
+// description: Animated progress bar with a wave/liquid fill effect using CustomPainter.
+// category: loaders
+// tags: progress, wave, liquid, animation, custom-paint
+// author: Leo Hartmann
+// featured: true
+// likes: 521
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 

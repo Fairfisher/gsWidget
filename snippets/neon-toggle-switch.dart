@@ -1,3 +1,10 @@
+// title: Neon Toggle Switch
+// description: Custom toggle switch with electric neon glow effect and smooth thumb animation.
+// category: inputs
+// tags: toggle, switch, neon, glow, custom
+// author: Mia Torres
+// featured: true
+// likes: 387
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
