@@ -1,0 +1,30 @@
+name: Sync snippets.json
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'snippets/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run sync
+        run: node sync.js
+
+      - name: Commit updated snippets.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/snippets.json
+          git diff --cached --quiet || git commit -m "chore: sync snippets.json"
+          git push
