@@ -4,6 +4,8 @@
 // tags: timer, countdown, circular, custom-paint, animation
 // author: Ben Fischer
 // featured: false
+// prompt: Build a circular countdown timer in Flutter using CustomPainter to draw an arc that shrinks as time passes, with animated color transitions.
+// model: claude-opus-4-7
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
