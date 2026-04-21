@@ -4,6 +4,8 @@
 // tags: glass, blur, frosted, modern
 // author: Alex Chen
 // featured: true
+// prompt: Build a frosted glass card in Flutter using BackdropFilter with a gradient border and blur effect on a dark background.
+// model: claude-opus-4-7
 import 'dart:ui';
 import 'package:flutter/material.dart';
 
