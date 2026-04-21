@@ -1,0 +1,98 @@
+name: Widget Review
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  approve:
+    if: github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract code and create file
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          python3 - << 'PYEOF'
+          import os, re
+
+          body = os.environ["ISSUE_BODY"]
+          title = os.environ["ISSUE_TITLE"]
+
+          match = re.search(r"```dart\n([\s\S]*?)\n```", body)
+          if not match:
+              print("ERROR: No dart code block found")
+              exit(1)
+
+          code = match.group(1)
+
+          title_match = re.match(r"\[Widget\]\s+(.+)", title)
+          widget_name = title_match.group(1) if title_match else title
+          slug = re.sub(r"[^a-z0-9\s-]", "", widget_name.lower()).strip()
+          slug = re.sub(r"\s+", "-", slug)
+
+          filename = f"snippets/{slug}.dart"
+          with open(filename, "w", newline="\n") as f:
+              f.write(code + "\n")
+
+          print(f"Created {filename}")
+
+          with open(os.environ["GITHUB_ENV"], "a") as env:
+              env.write(f"WIDGET_SLUG={slug}\n")
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add snippets/${{ env.WIDGET_SLUG }}.dart
+          git diff --cached --quiet || git commit -m "feat: add ${{ env.WIDGET_SLUG }} (closes #${{ github.event.issue.number }})"
+          git push
+
+      - name: Close issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: "✅ Widget approved and added to the library!"
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              state: "closed",
+              state_reason: "completed"
+            });
+
+  reject:
+    if: github.event.label.name == 'rejected'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Close issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: "Thanks for your submission. Unfortunately this widget was not accepted at this time."
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              state: "closed",
+              state_reason: "not_planned"
+            });
