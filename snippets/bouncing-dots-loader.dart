@@ -4,6 +4,8 @@
 // tags: dots, bounce, loading, animated
 // author: Tom Baker
 // featured: false
+// prompt: Build a Flutter loading indicator with three dots that bounce sequentially using staggered AnimationController with offset delays.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
