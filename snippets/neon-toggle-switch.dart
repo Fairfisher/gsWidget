@@ -4,6 +4,8 @@
 // tags: toggle, switch, neon, glow, custom
 // author: Mia Torres
 // featured: true
+// prompt: Build a custom Flutter toggle switch with an electric neon glow effect and smooth animated thumb transition on toggle.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
