@@ -4,6 +4,8 @@
 // tags: 3d, flip, animation, transform
 // author: Nina Patel
 // featured: true
+// prompt: Build a Flutter card widget that flips in 3D on tap using Matrix4 transforms. Show different content on front and back. Smooth flip animation, no external packages.
+// model: claude-opus-4-7
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
