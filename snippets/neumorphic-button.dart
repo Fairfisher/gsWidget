@@ -4,6 +4,8 @@
 // tags: neumorphism, soft-ui, shadow, 3d
 // author: Sara Kim
 // featured: false
+// prompt: Build a neumorphic button in Flutter with soft UI inner and outer shadows creating a pressed-in depth illusion on a neutral background.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
