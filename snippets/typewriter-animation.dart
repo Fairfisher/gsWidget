@@ -4,6 +4,8 @@
 // tags: typewriter, text, animation, cursor
 // author: Emma Wilson
 // featured: false
+// prompt: Build a Flutter typewriter text animation with a blinking cursor using AnimationController and character-by-character string reveal.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
