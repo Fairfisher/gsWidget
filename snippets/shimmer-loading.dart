@@ -4,6 +4,8 @@
 // tags: shimmer, skeleton, loading, placeholder
 // author: Priya Sharma
 // featured: true
+// prompt: Build a skeleton loading placeholder card in Flutter with a shimmer sweep animation. No shimmer package, built from scratch.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
