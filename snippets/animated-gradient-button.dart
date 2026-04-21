@@ -4,6 +4,8 @@
 // tags: gradient, animation, custom
 // author: Liam Torres
 // featured: true
+// prompt: Build a Flutter button with a continuously animating gradient background that shifts colors in a loop using AnimationController.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
