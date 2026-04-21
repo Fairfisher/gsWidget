@@ -9,6 +9,8 @@
  *   // tags: glass, blur, modern
  *   // author: Your Name
  *   // featured: true
+ *   // prompt: The prompt used to generate this widget (optional)
+ *   // model: claude-opus-4-7 (optional)
  *
  * Likes are NOT in the header — they are preserved from the existing snippets.json.
  * New snippets start at 0.
@@ -74,6 +76,8 @@ function parseHeader(content, filename) {
     authorAvatarUrl: null,
     featured: meta.featured === 'true',
     createdAt: meta.createdAt || new Date().toISOString().split('T')[0] + 'T00:00:00.000Z',
+    prompt: meta.prompt || null,
+    model: meta.model || null,
   };
 }
 
