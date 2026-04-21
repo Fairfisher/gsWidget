@@ -4,6 +4,8 @@
 // tags: fab, speed-dial, menu, animation, stagger
 // author: Marco Russo
 // featured: false
+// prompt: Build a speed dial FAB in Flutter that fans out sub-action buttons with staggered spring animations when pressed.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
