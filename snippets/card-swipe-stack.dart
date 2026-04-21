@@ -4,6 +4,8 @@
 // tags: swipe, drag, tinder, stack, gesture
 // author: Nina Petrov
 // featured: true
+// prompt: Build a Tinder-style swipeable card stack in Flutter with drag gesture detection, card rotation based on drag offset, and dismiss animation.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
