@@ -4,6 +4,8 @@
 // tags: chart, bar, animation, custom-paint
 // author: David Park
 // featured: true
+// prompt: Build an animated bar chart in Flutter using CustomPainter. Bars animate in from the bottom on load. No chart packages, pure Flutter.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
