@@ -4,6 +4,8 @@
 // tags: otp, pin, verification, input
 // author: Marco Rossi
 // featured: true
+// prompt: Build an OTP/PIN input widget in Flutter with 6 individual digit boxes, auto-advance focus on input, and backspace support.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
