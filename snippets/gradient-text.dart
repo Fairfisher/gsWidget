@@ -4,6 +4,8 @@
 // tags: gradient, text, shader, colorful
 // author: Aisha Johnson
 // featured: false
+// prompt: Build a Flutter widget that applies a linear gradient to text using ShaderMask. Multiple color stops, no external packages.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
