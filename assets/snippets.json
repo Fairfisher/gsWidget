@@ -530,6 +530,26 @@
       "prompt": "Build a Flutter wave loading animation using CustomPainter and sine wave math. Smooth looping wave, no external packages.",
       "model": "claude-opus-4-7",
       "likes": 445
+    },
+    {
+      "id": "world-node-629048",
+      "slug": "world-node",
+      "title": "World Node",
+      "description": "Widget fo Background",
+      "category": "layouts",
+      "tags": [
+        "backgorund",
+        "world",
+        "globe",
+        "animated"
+      ],
+      "authorName": "John Dee",
+      "authorAvatarUrl": null,
+      "featured": false,
+      "createdAt": "2026-04-21T00:00:00.000Z",
+      "prompt": "Widget als WorldGlobe",
+      "model": "gemma 4",
+      "likes": 0
     }
   ]
 }
