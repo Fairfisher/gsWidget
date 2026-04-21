@@ -4,6 +4,8 @@
 // tags: toast, notification, snackbar, animation, slide
 // author: Eva Nguyen
 // featured: false
+// prompt: Build a Flutter toast notification that slides in from the top, displays an icon and message, shows a countdown progress bar, and auto-dismisses.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
