@@ -4,6 +4,8 @@
 // tags: stepper, progress, steps, animation, custom
 // author: Yuki Tanaka
 // featured: false
+// prompt: Build a custom horizontal stepper widget in Flutter with an animated progress line connecting numbered step circles and labels.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
