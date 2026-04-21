@@ -4,6 +4,8 @@
 // tags: drag, reorder, list, interactive
 // author: Fatima Al-Rashid
 // featured: false
+// prompt: Build a drag-to-reorder list in Flutter using ReorderableListView with visible drag handles and smooth reorder animation.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
