@@ -4,6 +4,8 @@
 // tags: glass, aurora, blur, animation, gradient, dark
 // author: gsWidget
 // featured: true
+// prompt: Build a Flutter glassmorphism card with animated aurora blob effects in purple, cyan, and pink. Use BackdropFilter blur over morphing radial gradient blobs on a dark background.
+// model: claude-opus-4-7
 import 'dart:math';
 import 'dart:ui';
 import 'package:flutter/material.dart';
