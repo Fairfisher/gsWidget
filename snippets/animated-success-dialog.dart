@@ -4,6 +4,8 @@
 // tags: dialog, success, animation, checkmark
 // author: Oliver Schmidt
 // featured: false
+// prompt: Build an animated success dialog in Flutter. When shown, a checkmark draws itself using CustomPainter with a stroke animation.
+// model: claude-opus-4-7
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
