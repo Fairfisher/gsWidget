@@ -4,6 +4,8 @@
 // tags: progress, wave, liquid, animation, custom-paint
 // author: Leo Hartmann
 // featured: true
+// prompt: Build a Flutter progress bar with an animated liquid wave fill effect using CustomPainter and sine wave math.
+// model: claude-opus-4-7
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
