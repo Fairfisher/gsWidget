@@ -4,6 +4,8 @@
 // tags: bottom-nav, animation, custom, indicator
 // author: Carlos Mendez
 // featured: true
+// prompt: Build a custom Flutter bottom navigation bar with an animated sliding indicator and icon scale effect when a tab is selected.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
