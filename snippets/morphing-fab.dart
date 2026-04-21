@@ -4,6 +4,8 @@
 // tags: fab, morph, expand, animation, spring
 // author: Chloe Dubois
 // featured: true
+// prompt: Build a Flutter FAB that morphs into an expanded action panel with a smooth spring animation when pressed.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
