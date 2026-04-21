@@ -4,6 +4,8 @@
 // tags: neon, border, gradient, animation, glow
 // author: Sam Rivera
 // featured: true
+// prompt: Build a Flutter card with an animated rotating neon gradient border using CustomPainter. Glowing neon effect on a dark background.
+// model: claude-opus-4-7
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
