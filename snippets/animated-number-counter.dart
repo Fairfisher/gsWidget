@@ -4,6 +4,8 @@
 // tags: counter, number, slot, animation, tween
 // author: Jake Williams
 // featured: false
+// prompt: Build a Flutter number counter where digits change with a slot-machine roll effect. Smooth tween animation, no external packages.
+// model: claude-opus-4-7
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
