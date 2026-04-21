@@ -4,6 +4,8 @@
 // tags: glass, blur, modern, gradient
 // author: Alex Chen
 // featured: true
+// prompt: Build a glassmorphism button in Flutter using BackdropFilter blur and a gradient border on a dark background. Frosted glass look with subtle shimmer.
+// model: claude-opus-4-7
 import 'dart:ui';
 import 'package:flutter/material.dart';
 
