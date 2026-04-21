@@ -4,6 +4,8 @@
 // tags: wave, loading, custom-paint, sine
 // author: Yuki Tanaka
 // featured: true
+// prompt: Build a Flutter wave loading animation using CustomPainter and sine wave math. Smooth looping wave, no external packages.
+// model: claude-opus-4-7
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
