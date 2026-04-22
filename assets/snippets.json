@@ -15,7 +15,7 @@
       "authorName": "Nina Patel",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Flutter card widget that flips in 3D on tap using Matrix4 transforms. Show different content on front and back. Smooth flip animation, no external packages.",
       "model": "claude-opus-4-7",
       "likes": 521
@@ -35,7 +35,7 @@
       "authorName": "David Park",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build an animated bar chart in Flutter using CustomPainter. Bars animate in from the bottom on load. No chart packages, pure Flutter.",
       "model": "claude-opus-4-7",
       "likes": 418
@@ -55,7 +55,7 @@
       "authorName": "Carlos Mendez",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a custom Flutter bottom navigation bar with an animated sliding indicator and icon scale effect when a tab is selected.",
       "model": "claude-opus-4-7",
       "likes": 502
@@ -74,7 +74,7 @@
       "authorName": "Liam Torres",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Flutter button with a continuously animating gradient background that shifts colors in a loop using AnimationController.",
       "model": "claude-opus-4-7",
       "likes": 274
@@ -95,7 +95,7 @@
       "authorName": "Jake Williams",
       "authorAvatarUrl": null,
       "featured": false,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Flutter number counter where digits change with a slot-machine roll effect. Smooth tween animation, no external packages.",
       "model": "claude-opus-4-7",
       "likes": 243
@@ -116,7 +116,7 @@
       "authorName": "Yuki Tanaka",
       "authorAvatarUrl": null,
       "featured": false,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a custom horizontal stepper widget in Flutter with an animated progress line connecting numbered step circles and labels.",
       "model": "claude-opus-4-7",
       "likes": 267
@@ -136,7 +136,7 @@
       "authorName": "Oliver Schmidt",
       "authorAvatarUrl": null,
       "featured": false,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build an animated success dialog in Flutter. When shown, a checkmark draws itself using CustomPainter with a stroke animation.",
       "model": "claude-opus-4-7",
       "likes": 176
@@ -158,7 +158,7 @@
       "authorName": "gsWidget",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Flutter glassmorphism card with animated aurora blob effects in purple, cyan, and pink. Use BackdropFilter blur over morphing radial gradient blobs on a dark background.",
       "model": "claude-opus-4-7",
       "likes": 287
@@ -178,7 +178,7 @@
       "authorName": "Tom Baker",
       "authorAvatarUrl": null,
       "featured": false,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Flutter loading indicator with three dots that bounce sequentially using staggered AnimationController with offset delays.",
       "model": "claude-opus-4-7",
       "likes": 156
@@ -199,7 +199,7 @@
       "authorName": "Nina Petrov",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Tinder-style swipeable card stack in Flutter with drag gesture detection, card rotation based on drag offset, and dismiss animation.",
       "model": "claude-opus-4-7",
       "likes": 634
@@ -220,7 +220,7 @@
       "authorName": "Ben Fischer",
       "authorAvatarUrl": null,
       "featured": false,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a circular countdown timer in Flutter using CustomPainter to draw an arc that shrinks as time passes, with animated color transitions.",
       "model": "claude-opus-4-7",
       "likes": 298
@@ -241,7 +241,7 @@
       "authorName": "Marco Russo",
       "authorAvatarUrl": null,
       "featured": false,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a speed dial FAB in Flutter that fans out sub-action buttons with staggered spring animations when pressed.",
       "model": "claude-opus-4-7",
       "likes": 289
@@ -261,7 +261,7 @@
       "authorName": "Alex Chen",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a glassmorphism button in Flutter using BackdropFilter blur and a gradient border on a dark background. Frosted glass look with subtle shimmer.",
       "model": "claude-opus-4-7",
       "likes": 342
@@ -281,7 +281,7 @@
       "authorName": "Alex Chen",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a frosted glass card in Flutter using BackdropFilter with a gradient border and blur effect on a dark background.",
       "model": "claude-opus-4-7",
       "likes": 389
@@ -301,7 +301,7 @@
       "authorName": "Aisha Johnson",
       "authorAvatarUrl": null,
       "featured": false,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Flutter widget that applies a linear gradient to text using ShaderMask. Multiple color stops, no external packages.",
       "model": "claude-opus-4-7",
       "likes": 201
@@ -322,7 +322,7 @@
       "authorName": "Leo Hartmann",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Flutter progress bar with an animated liquid wave fill effect using CustomPainter and sine wave math.",
       "model": "claude-opus-4-7",
       "likes": 521
@@ -343,7 +343,7 @@
       "authorName": "Chloe Dubois",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Flutter FAB that morphs into an expanded action panel with a smooth spring animation when pressed.",
       "model": "claude-opus-4-7",
       "likes": 456
@@ -364,7 +364,7 @@
       "authorName": "Sam Rivera",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Flutter card with an animated rotating neon gradient border using CustomPainter. Glowing neon effect on a dark background.",
       "model": "claude-opus-4-7",
       "likes": 512
@@ -385,7 +385,7 @@
       "authorName": "Mia Torres",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a custom Flutter toggle switch with an electric neon glow effect and smooth animated thumb transition on toggle.",
       "model": "claude-opus-4-7",
       "likes": 387
@@ -405,7 +405,7 @@
       "authorName": "Sara Kim",
       "authorAvatarUrl": null,
       "featured": false,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a neumorphic button in Flutter with soft UI inner and outer shadows creating a pressed-in depth illusion on a neutral background.",
       "model": "claude-opus-4-7",
       "likes": 198
@@ -425,7 +425,7 @@
       "authorName": "Marco Rossi",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build an OTP/PIN input widget in Flutter with 6 individual digit boxes, auto-advance focus on input, and backspace support.",
       "model": "claude-opus-4-7",
       "likes": 310
@@ -445,7 +445,7 @@
       "authorName": "Fatima Al-Rashid",
       "authorAvatarUrl": null,
       "featured": false,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a drag-to-reorder list in Flutter using ReorderableListView with visible drag handles and smooth reorder animation.",
       "model": "claude-opus-4-7",
       "likes": 143
@@ -465,7 +465,7 @@
       "authorName": "Priya Sharma",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a skeleton loading placeholder card in Flutter with a shimmer sweep animation. No shimmer package, built from scratch.",
       "model": "claude-opus-4-7",
       "likes": 634
@@ -486,7 +486,7 @@
       "authorName": "Eva Nguyen",
       "authorAvatarUrl": null,
       "featured": false,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Flutter toast notification that slides in from the top, displays an icon and message, shows a countdown progress bar, and auto-dismisses.",
       "model": "claude-opus-4-7",
       "likes": 334
@@ -506,7 +506,7 @@
       "authorName": "Emma Wilson",
       "authorAvatarUrl": null,
       "featured": false,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Flutter typewriter text animation with a blinking cursor using AnimationController and character-by-character string reveal.",
       "model": "claude-opus-4-7",
       "likes": 287
@@ -526,7 +526,7 @@
       "authorName": "Yuki Tanaka",
       "authorAvatarUrl": null,
       "featured": true,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Build a Flutter wave loading animation using CustomPainter and sine wave math. Smooth looping wave, no external packages.",
       "model": "claude-opus-4-7",
       "likes": 445
@@ -546,7 +546,7 @@
       "authorName": "John Dee",
       "authorAvatarUrl": null,
       "featured": false,
-      "createdAt": "2026-04-21T00:00:00.000Z",
+      "createdAt": "2026-04-22T00:00:00.000Z",
       "prompt": "Widget als WorldGlobe",
       "model": "gemma 4",
       "likes": 0
