@@ -8,6 +8,9 @@
 // model: gemma 4
 
 import 'package:flutter/material.dart';
+import 'dart:math' as math;
+import 'package:flutter/scheduler.dart';
+import 'package:flutter/gestures.dart';
 
 void main() => runApp(const MyApp());
 
@@ -25,11 +28,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-import 'dart:math' as math;
-import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
-import 'package:flutter/gestures.dart';
 
 class SpinningGlobeBackground extends StatefulWidget {
   final ScrollController? scrollController;
