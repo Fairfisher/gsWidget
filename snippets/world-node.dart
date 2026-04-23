@@ -1,11 +1,11 @@
-// title: World Node
-// description: Widget fo Background
+// title: World-Node
+// description: Eine sich drehende Erde
 // category: layouts
-// tags: backgorund,world,globe,animated
-// author: John Dee
+// tags: earth
+// author: John Doe
 // featured: false
-// prompt: Widget als WorldGlobe
-// model: gemma 4
+// prompt: Tetsprompt
+// model: claude-opus-4.7
 
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
