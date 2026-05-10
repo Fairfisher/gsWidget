@@ -78,6 +78,9 @@ function parseHeader(content, filename) {
     createdAt: meta.createdAt || new Date().toISOString().split('T')[0] + 'T00:00:00.000Z',
     prompt: meta.prompt || null,
     model: meta.model || null,
+    previewUrl: fs.existsSync(path.join(__dirname, 'previews', slug + '.png'))
+      ? `https://raw.githubusercontent.com/Fairfisher/gsWidget/main/previews/${slug}.png`
+      : null,
   };
 }
 

@@ -38,6 +38,7 @@ jobs:
           slug = re.sub(r"\s+", "-", slug)
 
           filename = f"snippets/{slug}.dart"
+          os.makedirs("snippets", exist_ok=True)
           with open(filename, "w", newline="\n") as f:
               f.write(code + "\n")
 
